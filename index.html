@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>50Proof Fitness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">50PROOF <span>FITNESS</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact" class="nav-cta">Get Started</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow">50Proof Fitness</p>
+        <h1>TRAIN HARD.<br />LIVE HARDER.</h1>
+        <p class="hero-sub">Real coaching. Real results. No excuses, no shortcuts — just the work that transforms you.</p>
+        <a href="#contact" class="btn btn-primary">Start Your Journey</a>
+        <a href="#services" class="btn btn-outline">View Services</a>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="images/hero-photo.jpg" alt="50Proof Fitness" id="hero-img" onerror="this.style.display='none';document.getElementById('photo-placeholder').style.display='flex'" />
+          <div id="photo-placeholder" class="photo-placeholder">
+            <div>
+              <p>YOUR PHOTO HERE</p>
+              <span>Add your image at:<br /><code>images/hero-photo.jpg</code></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>SCROLL DOWN</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">About Me</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>BUILT ON GRIT.<br />PROVEN BY RESULTS.</h2>
+          <p>I'm not here to sell you a magic pill. I'm here to give you the plan, the push, and the accountability to become the strongest version of yourself — physically and mentally.</p>
+          <p>Whether you're starting from zero or breaking through a plateau, 50Proof Fitness meets you where you are and gets you where you want to be.</p>
+          <a href="#contact" class="btn btn-primary">Work With Me</a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Years Coaching</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100+</span>
+            <span class="stat-label">Clients Transformed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Certified &amp; Committed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="section-label">What I Offer</div>
+      <h2 class="section-title">SERVICES</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">&#9881;</div>
+          <h3>1-on-1 Coaching</h3>
+          <p>Personalized training sessions tailored to your goals, fitness level, and schedule. In-person or virtual — I've got you covered.</p>
+          <a href="#contact" class="service-link">Get Started &rarr;</a>
+        </div>
+        <div class="service-card featured">
+          <div class="featured-badge">MOST POPULAR</div>
+          <div class="service-icon">&#128196;</div>
+          <h3>Custom Programs</h3>
+          <p>A complete workout and nutrition blueprint built specifically for you. Take it anywhere and follow it at your own pace.</p>
+          <a href="#contact" class="service-link">Get Started &rarr;</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#127760;</div>
+          <h3>Online Training</h3>
+          <p>Join my online coaching community for weekly programming, check-ins, video feedback, and a tribe that holds you accountable.</p>
+          <a href="#contact" class="service-link">Get Started &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="section-label">Client Stories</div>
+      <h2 class="section-title">RESULTS SPEAK<br />FOR THEMSELVES</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Working with 50Proof Fitness completely changed my life. I lost 40 lbs in 6 months and gained more confidence than I've ever had. The accountability is next level."</blockquote>
+          <cite>— Marcus T.</cite>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I'd tried every program out there. Nothing stuck until I got a custom plan built just for me. 3 months in and I'm hitting PRs every week. This is the real deal."</blockquote>
+          <cite>— Jenna R.</cite>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The online coaching is incredible value. Constant feedback, programming that actually makes sense, and a coach who genuinely cares about your progress."</blockquote>
+          <cite>— DeShawn M.</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">Let's Talk</div>
+      <h2 class="section-title">READY TO GET<br />STARTED?</h2>
+      <p class="contact-sub">Fill out the form below and I'll get back to you within 24 hours. Your transformation starts with one message.</p>
+      <div class="contact-layout">
+        <form class="contact-form" id="contact-form" action="mailto:mhemingway@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="goal">Your Goal</label>
+            <select id="goal" name="goal">
+              <option value="">Select your main goal</option>
+              <option value="fat-loss">Fat Loss</option>
+              <option value="muscle">Build Muscle</option>
+              <option value="strength">Increase Strength</option>
+              <option value="endurance">Improve Endurance</option>
+              <option value="general">General Fitness</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about yourself and your goals..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <div class="contact-block">
+            <h4>Follow Along</h4>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+                Instagram
+              </a>
+              <a href="#" class="social-link" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42A2.78 2.78 0 0 0 20.6 4.47C18.88 4 12 4 12 4s-6.88 0-8.6.47a2.78 2.78 0 0 0-1.94 1.95C1 8.15 1 12 1 12s0 3.85.46 5.58a2.78 2.78 0 0 0 1.94 1.95C5.12 20 12 20 12 20s6.88 0 8.6-.47a2.78 2.78 0 0 0 1.94-1.95C23 15.85 23 12 23 12s0-3.85-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg>
+                YouTube
+              </a>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                Facebook
+              </a>
+            </div>
+          </div>
+          <div class="contact-block">
+            <h4>Quick Response</h4>
+            <p>I personally read every message and respond within 24 hours. No automated replies, no runaround — just a real conversation about your goals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#hero" class="logo">50PROOF <span>FITNESS</span></a>
+        <nav class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; 2026 50Proof Fitness. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
